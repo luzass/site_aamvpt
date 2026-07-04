@@ -45,9 +45,9 @@ a {
   position: absolute;
   inset: auto 0 0;
   z-index: 1;
-  height: 28%;
+  height: 18%;
   content: "";
-  background: linear-gradient(180deg, rgba(5, 7, 6, 0), rgba(5, 7, 6, 0.72));
+  background: linear-gradient(180deg, rgba(5, 7, 6, 0), rgba(5, 7, 6, 0.46));
   pointer-events: none;
 }
 
@@ -281,16 +281,31 @@ a {
 
 .about-section {
   --about-green: #009e26;
-  min-height: 400px;
+  position: relative;
+  min-height: 440px;
   display: grid;
   grid-template-columns: minmax(0, 0.96fr) minmax(0, 1.04fr);
   background: linear-gradient(90deg, var(--white) 0 50%, var(--about-green) 50% 100%);
   overflow: hidden;
+  isolation: isolate;
+}
+
+.about-section::after {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+  height: 42px;
+  content: "";
+  background:
+    linear-gradient(180deg, rgba(5, 7, 6, 0), rgba(5, 7, 6, 0.16));
+  pointer-events: none;
 }
 
 .about-section__photo {
   position: relative;
-  min-height: 400px;
+  min-height: 440px;
   display: grid;
   place-items: center;
   padding: clamp(22px, 3vw, 42px);
@@ -299,7 +314,7 @@ a {
 }
 
 .about-section__photo::before {
-  width: min(100%, 460px);
+  width: min(100%, 500px);
   aspect-ratio: 16 / 10;
   content: "";
   background-image:
@@ -308,11 +323,11 @@ a {
     url("assets/images/foto_hero_01.webp");
   background-position: center;
   background-size: cover;
-  box-shadow: 0 28px 70px rgba(5, 7, 6, 0.24);
+  box-shadow: 0 22px 56px rgba(5, 7, 6, 0.18);
 }
 
 .about-section__content {
-  min-height: 400px;
+  min-height: 440px;
   padding: clamp(24px, 2.8vw, 38px) clamp(28px, 5vw, 84px);
   display: flex;
   flex-direction: column;
@@ -382,7 +397,7 @@ a {
 .executive-section {
   position: relative;
   min-height: 500px;
-  padding: 28px clamp(22px, 6vw, 112px) 34px;
+  padding: 44px clamp(22px, 6vw, 112px) 34px;
   overflow: hidden;
   color: var(--white);
   background:
@@ -400,6 +415,7 @@ a {
   z-index: -1;
   content: "";
   background:
+    linear-gradient(180deg, rgba(0, 158, 38, 0.12) 0%, rgba(5, 7, 6, 0) 18%),
     radial-gradient(ellipse at center, rgba(0, 158, 38, 0.2), transparent 58%),
     linear-gradient(90deg, rgba(255, 255, 255, 0.08), transparent 18%, transparent 82%, rgba(255, 255, 255, 0.07));
   filter: blur(8px);
