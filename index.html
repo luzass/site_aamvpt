@@ -151,73 +151,22 @@
           <button type="button" data-gallery-filter="esportes">Esportes</button>
         </div>
 
-        <div class="photos-section__grid">
-          <article
-            class="photo-album photo-album--featured photo-album--welcomed"
-            data-gallery-category="eventos"
-            data-album-slug="festa-welcomed"
-            data-event="Festa Welcomed"
-            data-year="2026"
-          >
-            <div class="photo-album__content">
-              <span>Evento</span>
-              <h3>Festa Welcomed</h3>
-              <p>A maior colorada de Medicina do DF.</p>
-            </div>
-          </article>
-
-          <article
-            class="photo-album photo-album--intermed-co"
-            data-gallery-category="intermed"
-            data-album-slug="intermed-co-2023"
-            data-event="Intermed CO"
-            data-year="2023"
-          >
-            <div class="photo-album__content">
-              <span>Intermed CO 2023</span>
-              <h3>Vice-campeonato</h3>
-            </div>
-          </article>
-
-          <article
-            class="photo-album photo-album--intermed-df"
-            data-gallery-category="intermed"
-            data-album-slug="intermed-df-2019"
-            data-event="Intermed DF"
-            data-year="2019"
-          >
-            <div class="photo-album__content">
-              <span>Intermed DF 2019</span>
-              <h3>Magnata em quadra</h3>
-            </div>
-          </article>
-
-          <article
-            class="photo-album photo-album--esportes"
-            data-gallery-category="esportes"
-            data-album-slug="modalidades"
-            data-sport="multiesportes"
-          >
-            <div class="photo-album__content">
-              <span>Modalidades</span>
-              <h3>Verde e preto em jogo</h3>
-            </div>
-          </article>
-
-          <article
-            class="photo-album photo-album--bastidores"
-            data-gallery-category="eventos"
-            data-album-slug="bastidores-welcomed"
-            data-event="Festa Welcomed"
-          >
-            <div class="photo-album__content">
-              <span>Bastidores</span>
-              <h3>Produção e torcida</h3>
-            </div>
-          </article>
-        </div>
+        <div class="photos-section__grid" data-gallery-grid></div>
       </section>
     </main>
+
+    <div class="gallery-modal" data-gallery-modal hidden>
+      <button class="gallery-modal__backdrop" type="button" data-gallery-close aria-label="Fechar galeria"></button>
+      <section class="gallery-modal__dialog" role="dialog" aria-modal="true" aria-labelledby="gallery-modal-title">
+        <button class="gallery-modal__close" type="button" data-gallery-close aria-label="Fechar galeria">&times;</button>
+        <div class="gallery-modal__header">
+          <span data-gallery-modal-label></span>
+          <h3 id="gallery-modal-title" data-gallery-modal-title></h3>
+          <p data-gallery-modal-description></p>
+        </div>
+        <div class="gallery-modal__grid" data-gallery-modal-grid></div>
+      </section>
+    </div>
 
     <script src="script.js"></script>
   </body>
