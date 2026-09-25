@@ -178,9 +178,14 @@ function renderGalleryAlbums(albums) {
     return;
   }
 
+  const visibleAlbums = albums.filter((album) => {
+    const photos = Array.isArray(album.photos) ? album.photos : [];
+    return !album.hideWhenEmpty || photos.length > 0;
+  });
+
   galleryGrid.innerHTML = "";
 
-  if (!albums.length) {
+  if (!visibleAlbums.length) {
     const emptyMessage = document.createElement("p");
     emptyMessage.className = "photos-section__empty";
     emptyMessage.textContent = "Fotos em breve.";
@@ -188,7 +193,7 @@ function renderGalleryAlbums(albums) {
     return;
   }
 
-  albums.forEach((album) => {
+  visibleAlbums.forEach((album) => {
     galleryGrid.append(createGalleryAlbum(album));
   });
 

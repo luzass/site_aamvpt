@@ -168,62 +168,751 @@
           "alt": "Modalidades - foto 29"
         },
         {
-          "src": "assets/images/galerias/modalidades/photo_2026-07-06_10-07-28.jpg",
+          "src": "assets/images/galerias/modalidades/photo_2026-07-06_10-07-39.jpg",
           "alt": "Modalidades - foto 30"
         },
         {
-          "src": "assets/images/galerias/modalidades/photo_2026-07-06_10-07-31.jpg",
+          "src": "assets/images/galerias/modalidades/photo_2026-07-06_10-07-54.jpg",
           "alt": "Modalidades - foto 31"
         },
         {
-          "src": "assets/images/galerias/modalidades/photo_2026-07-06_10-07-34.jpg",
+          "src": "assets/images/galerias/modalidades/photo_2026-07-06_10-07-57.jpg",
           "alt": "Modalidades - foto 32"
         },
         {
-          "src": "assets/images/galerias/modalidades/photo_2026-07-06_10-07-39.jpg",
+          "src": "assets/images/galerias/modalidades/photo_2026-07-06_10-08-00.jpg",
           "alt": "Modalidades - foto 33"
         },
         {
-          "src": "assets/images/galerias/modalidades/photo_2026-07-06_10-07-54.jpg",
+          "src": "assets/images/galerias/modalidades/photo_2026-07-06_10-08-02.jpg",
           "alt": "Modalidades - foto 34"
         },
         {
-          "src": "assets/images/galerias/modalidades/photo_2026-07-06_10-07-57.jpg",
+          "src": "assets/images/galerias/modalidades/photo_2026-07-06_10-08-05.jpg",
           "alt": "Modalidades - foto 35"
         },
         {
-          "src": "assets/images/galerias/modalidades/photo_2026-07-06_10-08-00.jpg",
+          "src": "assets/images/galerias/modalidades/photo_2026-07-06_10-08-07.jpg",
           "alt": "Modalidades - foto 36"
         },
         {
-          "src": "assets/images/galerias/modalidades/photo_2026-07-06_10-08-02.jpg",
+          "src": "assets/images/galerias/modalidades/photo_2026-07-06_10-08-09.jpg",
           "alt": "Modalidades - foto 37"
         },
         {
-          "src": "assets/images/galerias/modalidades/photo_2026-07-06_10-08-05.jpg",
+          "src": "assets/images/galerias/modalidades/photo_2026-07-06_10-08-11.jpg",
           "alt": "Modalidades - foto 38"
         },
         {
-          "src": "assets/images/galerias/modalidades/photo_2026-07-06_10-08-07.jpg",
+          "src": "assets/images/galerias/modalidades/photo_2026-07-06_10-08-14.jpg",
           "alt": "Modalidades - foto 39"
         },
         {
-          "src": "assets/images/galerias/modalidades/photo_2026-07-06_10-08-09.jpg",
-          "alt": "Modalidades - foto 40"
-        },
-        {
-          "src": "assets/images/galerias/modalidades/photo_2026-07-06_10-08-11.jpg",
-          "alt": "Modalidades - foto 41"
-        },
-        {
-          "src": "assets/images/galerias/modalidades/photo_2026-07-06_10-08-14.jpg",
-          "alt": "Modalidades - foto 42"
-        },
-        {
           "src": "assets/images/galerias/modalidades/photo_2026-07-06_10-08-17.jpg",
-          "alt": "Modalidades - foto 43"
+          "alt": "Modalidades - foto 40"
         }
       ]
+    },
+    {
+      "slug": "futebol",
+      "category": "modalidades",
+      "label": "Modalidades",
+      "title": "Futebol",
+      "cover": "assets/images/galerias/futebol/futebol-01.webp",
+      "fallbackCover": "assets/images/foto_hero_02.webp",
+      "sport": "futebol",
+      "hideWhenEmpty": true,
+      "photos": []
+    },
+    {
+      "slug": "futsal",
+      "category": "modalidades",
+      "label": "Modalidades",
+      "title": "Futsal",
+      "cover": "assets/images/galerias/futsal/1.jpeg",
+      "fallbackCover": "assets/images/foto_hero_02.webp",
+      "sport": "futsal",
+      "hideWhenEmpty": true,
+      "photos": [
+        {
+          "src": "assets/images/galerias/futsal/1.jpeg",
+          "alt": "Futsal - foto 1"
+        },
+        {
+          "src": "assets/images/galerias/futsal/2.jpeg",
+          "alt": "Futsal - foto 2"
+        },
+        {
+          "src": "assets/images/galerias/futsal/3.jpeg",
+          "alt": "Futsal - foto 3"
+        },
+        {
+          "src": "assets/images/galerias/futsal/4.jpeg",
+          "alt": "Futsal - foto 4"
+        },
+        {
+          "src": "assets/images/galerias/futsal/5.jpeg",
+          "alt": "Futsal - foto 5"
+        },
+        {
+          "src": "assets/images/galerias/futsal/6.jpeg",
+          "alt": "Futsal - foto 6"
+        },
+        {
+          "src": "assets/images/galerias/futsal/7.jpeg",
+          "alt": "Futsal - foto 7"
+        },
+        {
+          "src": "assets/images/galerias/futsal/8.jpeg",
+          "alt": "Futsal - foto 8"
+        },
+        {
+          "src": "assets/images/galerias/futsal/9.jpeg",
+          "alt": "Futsal - foto 9"
+        }
+      ]
+    },
+    {
+      "slug": "volei",
+      "category": "modalidades",
+      "label": "Modalidades",
+      "title": "Vôlei",
+      "cover": "assets/images/galerias/volei/1.jpeg",
+      "fallbackCover": "assets/images/foto_hero_02.webp",
+      "sport": "volei",
+      "hideWhenEmpty": true,
+      "photos": [
+        {
+          "src": "assets/images/galerias/volei/1.jpeg",
+          "alt": "Vôlei - foto 1"
+        },
+        {
+          "src": "assets/images/galerias/volei/2.jpeg",
+          "alt": "Vôlei - foto 2"
+        },
+        {
+          "src": "assets/images/galerias/volei/3.jpeg",
+          "alt": "Vôlei - foto 3"
+        },
+        {
+          "src": "assets/images/galerias/volei/4.jpeg",
+          "alt": "Vôlei - foto 4"
+        },
+        {
+          "src": "assets/images/galerias/volei/5.jpeg",
+          "alt": "Vôlei - foto 5"
+        },
+        {
+          "src": "assets/images/galerias/volei/6.jpeg",
+          "alt": "Vôlei - foto 6"
+        },
+        {
+          "src": "assets/images/galerias/volei/7.jpeg",
+          "alt": "Vôlei - foto 7"
+        },
+        {
+          "src": "assets/images/galerias/volei/8.jpeg",
+          "alt": "Vôlei - foto 8"
+        },
+        {
+          "src": "assets/images/galerias/volei/9.jpeg",
+          "alt": "Vôlei - foto 9"
+        },
+        {
+          "src": "assets/images/galerias/volei/10.jpeg",
+          "alt": "Vôlei - foto 10"
+        },
+        {
+          "src": "assets/images/galerias/volei/11.jpeg",
+          "alt": "Vôlei - foto 11"
+        },
+        {
+          "src": "assets/images/galerias/volei/12.jpeg",
+          "alt": "Vôlei - foto 12"
+        },
+        {
+          "src": "assets/images/galerias/volei/13.jpeg",
+          "alt": "Vôlei - foto 13"
+        },
+        {
+          "src": "assets/images/galerias/volei/14.jpeg",
+          "alt": "Vôlei - foto 14"
+        },
+        {
+          "src": "assets/images/galerias/volei/15.jpeg",
+          "alt": "Vôlei - foto 15"
+        },
+        {
+          "src": "assets/images/galerias/volei/16.jpeg",
+          "alt": "Vôlei - foto 16"
+        },
+        {
+          "src": "assets/images/galerias/volei/17.jpeg",
+          "alt": "Vôlei - foto 17"
+        },
+        {
+          "src": "assets/images/galerias/volei/18.jpeg",
+          "alt": "Vôlei - foto 18"
+        },
+        {
+          "src": "assets/images/galerias/volei/19.jpeg",
+          "alt": "Vôlei - foto 19"
+        },
+        {
+          "src": "assets/images/galerias/volei/20.jpeg",
+          "alt": "Vôlei - foto 20"
+        },
+        {
+          "src": "assets/images/galerias/volei/21.jpeg",
+          "alt": "Vôlei - foto 21"
+        },
+        {
+          "src": "assets/images/galerias/volei/22.jpeg",
+          "alt": "Vôlei - foto 22"
+        },
+        {
+          "src": "assets/images/galerias/volei/23.jpeg",
+          "alt": "Vôlei - foto 23"
+        },
+        {
+          "src": "assets/images/galerias/volei/24.jpeg",
+          "alt": "Vôlei - foto 24"
+        },
+        {
+          "src": "assets/images/galerias/volei/25.jpeg",
+          "alt": "Vôlei - foto 25"
+        },
+        {
+          "src": "assets/images/galerias/volei/26.jpeg",
+          "alt": "Vôlei - foto 26"
+        },
+        {
+          "src": "assets/images/galerias/volei/27.jpeg",
+          "alt": "Vôlei - foto 27"
+        },
+        {
+          "src": "assets/images/galerias/volei/32.jpeg",
+          "alt": "Vôlei - foto 28"
+        },
+        {
+          "src": "assets/images/galerias/volei/33.jpeg",
+          "alt": "Vôlei - foto 29"
+        },
+        {
+          "src": "assets/images/galerias/volei/34.jpeg",
+          "alt": "Vôlei - foto 30"
+        },
+        {
+          "src": "assets/images/galerias/volei/35.jpeg",
+          "alt": "Vôlei - foto 31"
+        },
+        {
+          "src": "assets/images/galerias/volei/36.jpeg",
+          "alt": "Vôlei - foto 32"
+        },
+        {
+          "src": "assets/images/galerias/volei/37.jpeg",
+          "alt": "Vôlei - foto 33"
+        },
+        {
+          "src": "assets/images/galerias/volei/38.jpeg",
+          "alt": "Vôlei - foto 34"
+        },
+        {
+          "src": "assets/images/galerias/volei/39.jpeg",
+          "alt": "Vôlei - foto 35"
+        },
+        {
+          "src": "assets/images/galerias/volei/40.jpeg",
+          "alt": "Vôlei - foto 36"
+        },
+        {
+          "src": "assets/images/galerias/volei/41.jpeg",
+          "alt": "Vôlei - foto 37"
+        },
+        {
+          "src": "assets/images/galerias/volei/42.jpeg",
+          "alt": "Vôlei - foto 38"
+        },
+        {
+          "src": "assets/images/galerias/volei/43.jpeg",
+          "alt": "Vôlei - foto 39"
+        },
+        {
+          "src": "assets/images/galerias/volei/44.jpeg",
+          "alt": "Vôlei - foto 40"
+        },
+        {
+          "src": "assets/images/galerias/volei/45.jpeg",
+          "alt": "Vôlei - foto 41"
+        },
+        {
+          "src": "assets/images/galerias/volei/46.jpeg",
+          "alt": "Vôlei - foto 42"
+        }
+      ]
+    },
+    {
+      "slug": "volei-de-praia",
+      "category": "modalidades",
+      "label": "Modalidades",
+      "title": "Vôlei de Praia",
+      "cover": "assets/images/galerias/volei-de-praia/volei-de-praia-01.webp",
+      "fallbackCover": "assets/images/foto_hero_02.webp",
+      "sport": "volei-de-praia",
+      "hideWhenEmpty": true,
+      "photos": []
+    },
+    {
+      "slug": "basquete",
+      "category": "modalidades",
+      "label": "Modalidades",
+      "title": "Basquete",
+      "cover": "assets/images/galerias/basquete/1.jpeg",
+      "fallbackCover": "assets/images/foto_hero_02.webp",
+      "sport": "basquete",
+      "hideWhenEmpty": true,
+      "photos": [
+        {
+          "src": "assets/images/galerias/basquete/1.jpeg",
+          "alt": "Basquete - foto 1"
+        },
+        {
+          "src": "assets/images/galerias/basquete/2.jpeg",
+          "alt": "Basquete - foto 2"
+        },
+        {
+          "src": "assets/images/galerias/basquete/3.jpeg",
+          "alt": "Basquete - foto 3"
+        },
+        {
+          "src": "assets/images/galerias/basquete/4.jpeg",
+          "alt": "Basquete - foto 4"
+        },
+        {
+          "src": "assets/images/galerias/basquete/5.jpeg",
+          "alt": "Basquete - foto 5"
+        },
+        {
+          "src": "assets/images/galerias/basquete/6.jpeg",
+          "alt": "Basquete - foto 6"
+        },
+        {
+          "src": "assets/images/galerias/basquete/7.jpeg",
+          "alt": "Basquete - foto 7"
+        },
+        {
+          "src": "assets/images/galerias/basquete/8.jpeg",
+          "alt": "Basquete - foto 8"
+        },
+        {
+          "src": "assets/images/galerias/basquete/9.jpeg",
+          "alt": "Basquete - foto 9"
+        }
+      ]
+    },
+    {
+      "slug": "handebol",
+      "category": "modalidades",
+      "label": "Modalidades",
+      "title": "Handebol",
+      "cover": "assets/images/galerias/handebol/1.jpeg",
+      "fallbackCover": "assets/images/foto_hero_02.webp",
+      "sport": "handebol",
+      "hideWhenEmpty": true,
+      "photos": [
+        {
+          "src": "assets/images/galerias/handebol/1.jpeg",
+          "alt": "Handebol - foto 1"
+        },
+        {
+          "src": "assets/images/galerias/handebol/2.jpeg",
+          "alt": "Handebol - foto 2"
+        },
+        {
+          "src": "assets/images/galerias/handebol/3.jpeg",
+          "alt": "Handebol - foto 3"
+        },
+        {
+          "src": "assets/images/galerias/handebol/4.jpeg",
+          "alt": "Handebol - foto 4"
+        },
+        {
+          "src": "assets/images/galerias/handebol/5.jpeg",
+          "alt": "Handebol - foto 5"
+        },
+        {
+          "src": "assets/images/galerias/handebol/6.jpeg",
+          "alt": "Handebol - foto 6"
+        },
+        {
+          "src": "assets/images/galerias/handebol/7.jpeg",
+          "alt": "Handebol - foto 7"
+        },
+        {
+          "src": "assets/images/galerias/handebol/8.jpeg",
+          "alt": "Handebol - foto 8"
+        },
+        {
+          "src": "assets/images/galerias/handebol/9.jpeg",
+          "alt": "Handebol - foto 9"
+        },
+        {
+          "src": "assets/images/galerias/handebol/10.jpeg",
+          "alt": "Handebol - foto 10"
+        },
+        {
+          "src": "assets/images/galerias/handebol/11.jpeg",
+          "alt": "Handebol - foto 11"
+        },
+        {
+          "src": "assets/images/galerias/handebol/12.jpeg",
+          "alt": "Handebol - foto 12"
+        },
+        {
+          "src": "assets/images/galerias/handebol/13.jpeg",
+          "alt": "Handebol - foto 13"
+        },
+        {
+          "src": "assets/images/galerias/handebol/14.jpeg",
+          "alt": "Handebol - foto 14"
+        },
+        {
+          "src": "assets/images/galerias/handebol/15.jpeg",
+          "alt": "Handebol - foto 15"
+        },
+        {
+          "src": "assets/images/galerias/handebol/20.jpeg",
+          "alt": "Handebol - foto 16"
+        },
+        {
+          "src": "assets/images/galerias/handebol/21.jpeg",
+          "alt": "Handebol - foto 17"
+        },
+        {
+          "src": "assets/images/galerias/handebol/22.jpeg",
+          "alt": "Handebol - foto 18"
+        },
+        {
+          "src": "assets/images/galerias/handebol/23.jpeg",
+          "alt": "Handebol - foto 19"
+        },
+        {
+          "src": "assets/images/galerias/handebol/24.jpeg",
+          "alt": "Handebol - foto 20"
+        },
+        {
+          "src": "assets/images/galerias/handebol/25.jpeg",
+          "alt": "Handebol - foto 21"
+        },
+        {
+          "src": "assets/images/galerias/handebol/26.jpeg",
+          "alt": "Handebol - foto 22"
+        },
+        {
+          "src": "assets/images/galerias/handebol/27.jpeg",
+          "alt": "Handebol - foto 23"
+        },
+        {
+          "src": "assets/images/galerias/handebol/28.jpeg",
+          "alt": "Handebol - foto 24"
+        },
+        {
+          "src": "assets/images/galerias/handebol/29.jpeg",
+          "alt": "Handebol - foto 25"
+        },
+        {
+          "src": "assets/images/galerias/handebol/30.jpeg",
+          "alt": "Handebol - foto 26"
+        },
+        {
+          "src": "assets/images/galerias/handebol/31.jpeg",
+          "alt": "Handebol - foto 27"
+        },
+        {
+          "src": "assets/images/galerias/handebol/33.2.jpeg",
+          "alt": "Handebol - foto 28"
+        },
+        {
+          "src": "assets/images/galerias/handebol/34.2.jpeg",
+          "alt": "Handebol - foto 29"
+        },
+        {
+          "src": "assets/images/galerias/handebol/35.jpeg",
+          "alt": "Handebol - foto 30"
+        },
+        {
+          "src": "assets/images/galerias/handebol/36.jpeg",
+          "alt": "Handebol - foto 31"
+        },
+        {
+          "src": "assets/images/galerias/handebol/37.jpeg",
+          "alt": "Handebol - foto 32"
+        },
+        {
+          "src": "assets/images/galerias/handebol/38.jpeg",
+          "alt": "Handebol - foto 33"
+        },
+        {
+          "src": "assets/images/galerias/handebol/39.jpeg",
+          "alt": "Handebol - foto 34"
+        },
+        {
+          "src": "assets/images/galerias/handebol/40.jpeg",
+          "alt": "Handebol - foto 35"
+        },
+        {
+          "src": "assets/images/galerias/handebol/41.jpeg",
+          "alt": "Handebol - foto 36"
+        },
+        {
+          "src": "assets/images/galerias/handebol/42.jpeg",
+          "alt": "Handebol - foto 37"
+        },
+        {
+          "src": "assets/images/galerias/handebol/43.jpeg",
+          "alt": "Handebol - foto 38"
+        },
+        {
+          "src": "assets/images/galerias/handebol/44.jpeg",
+          "alt": "Handebol - foto 39"
+        },
+        {
+          "src": "assets/images/galerias/handebol/45.jpeg",
+          "alt": "Handebol - foto 40"
+        },
+        {
+          "src": "assets/images/galerias/handebol/46.jpeg",
+          "alt": "Handebol - foto 41"
+        },
+        {
+          "src": "assets/images/galerias/handebol/47.jpeg",
+          "alt": "Handebol - foto 42"
+        },
+        {
+          "src": "assets/images/galerias/handebol/48.jpeg",
+          "alt": "Handebol - foto 43"
+        },
+        {
+          "src": "assets/images/galerias/handebol/49.jpeg",
+          "alt": "Handebol - foto 44"
+        },
+        {
+          "src": "assets/images/galerias/handebol/50.jpeg",
+          "alt": "Handebol - foto 45"
+        },
+        {
+          "src": "assets/images/galerias/handebol/51.jpeg",
+          "alt": "Handebol - foto 46"
+        },
+        {
+          "src": "assets/images/galerias/handebol/52.jpeg",
+          "alt": "Handebol - foto 47"
+        },
+        {
+          "src": "assets/images/galerias/handebol/53.jpeg",
+          "alt": "Handebol - foto 48"
+        },
+        {
+          "src": "assets/images/galerias/handebol/54.jpeg",
+          "alt": "Handebol - foto 49"
+        },
+        {
+          "src": "assets/images/galerias/handebol/55.jpeg",
+          "alt": "Handebol - foto 50"
+        },
+        {
+          "src": "assets/images/galerias/handebol/56.jpeg",
+          "alt": "Handebol - foto 51"
+        },
+        {
+          "src": "assets/images/galerias/handebol/57.jpeg",
+          "alt": "Handebol - foto 52"
+        },
+        {
+          "src": "assets/images/galerias/handebol/58.jpeg",
+          "alt": "Handebol - foto 53"
+        },
+        {
+          "src": "assets/images/galerias/handebol/59.jpeg",
+          "alt": "Handebol - foto 54"
+        },
+        {
+          "src": "assets/images/galerias/handebol/60.jpeg",
+          "alt": "Handebol - foto 55"
+        },
+        {
+          "src": "assets/images/galerias/handebol/61.jpeg",
+          "alt": "Handebol - foto 56"
+        },
+        {
+          "src": "assets/images/galerias/handebol/62.jpeg",
+          "alt": "Handebol - foto 57"
+        }
+      ]
+    },
+    {
+      "slug": "atletismo",
+      "category": "modalidades",
+      "label": "Modalidades",
+      "title": "Atletismo",
+      "cover": "assets/images/galerias/atletismo/photo_2026-07-06_10-07-28.jpg",
+      "fallbackCover": "assets/images/foto_hero_02.webp",
+      "sport": "atletismo",
+      "hideWhenEmpty": true,
+      "photos": [
+        {
+          "src": "assets/images/galerias/atletismo/photo_2026-07-06_10-07-28.jpg",
+          "alt": "Atletismo - foto 1"
+        },
+        {
+          "src": "assets/images/galerias/atletismo/photo_2026-07-06_10-07-31.jpg",
+          "alt": "Atletismo - foto 2"
+        },
+        {
+          "src": "assets/images/galerias/atletismo/photo_2026-07-06_10-07-34.jpg",
+          "alt": "Atletismo - foto 3"
+        }
+      ]
+    },
+    {
+      "slug": "natacao",
+      "category": "modalidades",
+      "label": "Modalidades",
+      "title": "Natação",
+      "cover": "assets/images/galerias/natacao/1.jpeg",
+      "fallbackCover": "assets/images/foto_hero_02.webp",
+      "sport": "natacao",
+      "hideWhenEmpty": true,
+      "photos": [
+        {
+          "src": "assets/images/galerias/natacao/1.jpeg",
+          "alt": "Natação - foto 1"
+        },
+        {
+          "src": "assets/images/galerias/natacao/2.jpeg",
+          "alt": "Natação - foto 2"
+        },
+        {
+          "src": "assets/images/galerias/natacao/3.jpeg",
+          "alt": "Natação - foto 3"
+        },
+        {
+          "src": "assets/images/galerias/natacao/4.jpeg",
+          "alt": "Natação - foto 4"
+        },
+        {
+          "src": "assets/images/galerias/natacao/5.jpeg",
+          "alt": "Natação - foto 5"
+        },
+        {
+          "src": "assets/images/galerias/natacao/6.jpeg",
+          "alt": "Natação - foto 6"
+        },
+        {
+          "src": "assets/images/galerias/natacao/7.jpeg",
+          "alt": "Natação - foto 7"
+        },
+        {
+          "src": "assets/images/galerias/natacao/8.jpeg",
+          "alt": "Natação - foto 8"
+        },
+        {
+          "src": "assets/images/galerias/natacao/9.jpeg",
+          "alt": "Natação - foto 9"
+        },
+        {
+          "src": "assets/images/galerias/natacao/10.jpeg",
+          "alt": "Natação - foto 10"
+        },
+        {
+          "src": "assets/images/galerias/natacao/11.jpeg",
+          "alt": "Natação - foto 11"
+        },
+        {
+          "src": "assets/images/galerias/natacao/12.jpeg",
+          "alt": "Natação - foto 12"
+        },
+        {
+          "src": "assets/images/galerias/natacao/13.jpeg",
+          "alt": "Natação - foto 13"
+        },
+        {
+          "src": "assets/images/galerias/natacao/14.jpeg",
+          "alt": "Natação - foto 14"
+        },
+        {
+          "src": "assets/images/galerias/natacao/15.jpeg",
+          "alt": "Natação - foto 15"
+        },
+        {
+          "src": "assets/images/galerias/natacao/16.jpeg",
+          "alt": "Natação - foto 16"
+        },
+        {
+          "src": "assets/images/galerias/natacao/17.jpeg",
+          "alt": "Natação - foto 17"
+        },
+        {
+          "src": "assets/images/galerias/natacao/18.jpeg",
+          "alt": "Natação - foto 18"
+        }
+      ]
+    },
+    {
+      "slug": "tenis-de-mesa",
+      "category": "modalidades",
+      "label": "Modalidades",
+      "title": "Tênis de Mesa",
+      "cover": "assets/images/galerias/tenis-de-mesa/tenis-de-mesa-01.webp",
+      "fallbackCover": "assets/images/foto_hero_02.webp",
+      "sport": "tenis-de-mesa",
+      "hideWhenEmpty": true,
+      "photos": []
+    },
+    {
+      "slug": "tenis-de-quadra",
+      "category": "modalidades",
+      "label": "Modalidades",
+      "title": "Tênis de Quadra",
+      "cover": "assets/images/galerias/tenis-de-quadra/tenis-de-quadra-01.webp",
+      "fallbackCover": "assets/images/foto_hero_02.webp",
+      "sport": "tenis-de-quadra",
+      "hideWhenEmpty": true,
+      "photos": []
+    },
+    {
+      "slug": "beach-tennis",
+      "category": "modalidades",
+      "label": "Modalidades",
+      "title": "Beach Tennis",
+      "cover": "assets/images/galerias/beach-tennis/beach-tennis-01.webp",
+      "fallbackCover": "assets/images/foto_hero_02.webp",
+      "sport": "beach-tennis",
+      "hideWhenEmpty": true,
+      "photos": []
+    },
+    {
+      "slug": "xadrez",
+      "category": "modalidades",
+      "label": "Modalidades",
+      "title": "Xadrez",
+      "cover": "assets/images/galerias/xadrez/xadrez-01.webp",
+      "fallbackCover": "assets/images/foto_hero_02.webp",
+      "sport": "xadrez",
+      "hideWhenEmpty": true,
+      "photos": []
+    },
+    {
+      "slug": "e-sports",
+      "category": "modalidades",
+      "label": "Modalidades",
+      "title": "E-sports",
+      "cover": "assets/images/galerias/e-sports/e-sports-01.webp",
+      "fallbackCover": "assets/images/foto_hero_02.webp",
+      "sport": "e-sports",
+      "hideWhenEmpty": true,
+      "photos": []
     }
   ]
 }
